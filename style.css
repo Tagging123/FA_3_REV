@@ -1,0 +1,271 @@
+
+/* Banner */
+.banner{
+    background-image: url(images/home.png);
+    height: auto;
+    background-position-y: -211px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    border: 1px solid rgba(255, 255, 255, 0.0);
+}
+
+@media only screen and (max-width: 768px){
+    .banner{
+        height: 323px;
+        background-position-x: -70px;
+        background-position-y: 2px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 366px){
+    .banner{
+        height: 323px;
+        background-position-x: -70px;
+        background-position-y: 2px;
+        background-size: cover;
+    }
+
+}
+
+.banner center{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.banner h1{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+    word-spacing: 5px;
+    margin: 0;
+}
+
+.banner h1 span{
+    color: #F1F7B5;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.banner p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 366px){
+    .banner h1{
+        margin-top: 15%;
+        font-size: 40px;
+    }
+    
+    .banner h1 span{
+        color: #F1F7B5;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+    
+    .banner p{
+        margin: 0;
+        color: white;
+        font-size: 20px;
+        word-spacing: 5px;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+        font-weight: 600;
+    }
+    
+}
+
+/* Content 1 */
+
+.content_1{
+    margin-top: 5%;
+}
+
+.content_1 .desc{
+    padding: 0 50px;
+
+}
+
+.content_1 .desc h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.content_1 .desc p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+.content_1 .img{
+    padding: 0;
+    text-align: center;
+}
+
+.content_1 .img img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px){
+    .content_1 .img .query{
+        width: 80%;
+    }
+
+    /* .content_1{
+        margin: 5% 0;
+        padding: 0 20px;
+        margin-top: 30px;
+    } */
+    .content_1{
+        margin-top: 30px;
+    }
+
+    .content_1 .desc h1{
+        margin-bottom: 20px;
+    }
+    .content_1 .desc p{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Content 2 */
+
+.content_2{
+    margin-top: 3%;
+}
+
+.content_2 .desc{
+    text-align: center;
+}
+
+.content_2 .desc h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.content_2 .desc p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content_22{
+    padding: 0 30px;
+}
+
+.content_22 div img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content_2 .desc{
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+
+    .content_22 div{
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .content_22 div img{
+        width: 55%;
+        text-align: center;
+    }
+}
+
+
+/* Content 3 */
+
+.content_3{
+    margin-top: 3%;
+}
+
+.content_3 hr{
+    color: #9EA1D4;
+    height: 2px;
+}
+
+.content_3 .desc h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.content_3 .desc p{
+    text-align: center;
+    /* padding: 0 300px; */
+}
+
+.caraousel{
+    width: 200px;
+
+}
+
+.ui-dialog{
+    position: fixed !important;
+}
+
+.ui-dialog-titlebar{
+    background-color: #9EA1D4 !important;
+    color: white !important;
+}
+
+#dialog #button{
+    background-color: #9EA1D4;
+    border: none;
+    color: white;
+}
+
+#dialog #button:focus{
+    box-shadow: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+}
+
+.ui-dialog-titlebar button{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+.ui-dialog-titlebar button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.ui-dialog-titlebar button:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgb(216, 216, 216);
+}
+
+.ui-dialog-titlebar button span{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px){
+    .content_3{
+        margin: 0;
+        padding: 0;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+}

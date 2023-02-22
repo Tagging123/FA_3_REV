@@ -1,0 +1,163 @@
+.aw{
+    /* border: 1px solid red; */
+}
+
+#navibar{
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content_1{
+    margin-top: 5%;
+}
+
+.content_1 .desc{
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.content_1 .desc h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content_1 .desc p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.content_1 .desc .curi-head{
+    font-weight: bold;
+}
+
+.content_1 .desc .curi-head, ul li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content_1 .img{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.content_1 .img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.content_1 .img h1.title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    margin: 20px 0;
+}
+
+.content_1 .img h1.title_2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin: 10px 0;
+    margin-top: 30px;
+}
+
+.content_1 .img p{
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.content_1 .content_1_inner{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.content_1 .content_1_inner div{
+    padding: 0;
+    margin: 0;
+}
+
+.content_1 .content_1_inner .first p span{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.content_1 .content_1_inner_2{
+    padding: 0;
+    margin: 0;
+}
+.content_1 .content_1_inner_2 div{
+    padding: 0;
+    margin: 0;
+}
+
+.content_1 .content_1_inner_2 .first p span{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.content_1 .img button{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #9EA1D4;
+    color: white;
+    outline: red;
+    border: none;
+}
+
+.content_1 .img button:active{
+    /* box-shadow: none; */
+    /* box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5); */
+}
+
+.content_1 .img button:focus{
+    box-shadow: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+    .content_1 .desc{
+        padding: 40px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .content_1 .img{
+        padding: 40px;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .content_1 .content_1_inner{
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    .content_1 .content_1_inner .first p{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .content_1 .content_1_inner_2{
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    .content_1 .content_1_inner_2 .first p{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .content_1 .img h1.title{
+        margin: 20px 0;
+    }
+    
+    .content_1 .img h1.title_2{
+        margin: 10px 0;
+    }
+
+
+}
+

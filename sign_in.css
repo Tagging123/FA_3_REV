@@ -1,0 +1,125 @@
+.aw {
+    /* border: 1px solid red; */
+}
+
+#navibar {
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content_1 {
+    margin-top: 5%;
+}
+
+.content_1 .title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content_1 .img {
+    text-align: right;
+    padding: 0;
+    margin-right: 60px;
+}
+
+.content_1 .img img {
+    width: 60%;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.content_1 .form {
+    padding: 0;
+}
+
+.content_1 .form input {
+    width: 80%;
+}
+
+.content_1 .form .button {
+    text-align: center;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.content_1 .form .button p {
+    text-align: right;
+}
+
+.content_1 .form .button p a {
+    text-align: right;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.content_1 .form .button p a:hover {
+    background-color: #9EA1D4;
+    color: white;
+    border-radius: 10px;
+}
+
+.content_1 .form .button p a:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.content_1 .form .button p a:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+    border-radius: 10px;
+    
+}
+
+.content_1 .form .button button {
+    width: initial;
+}
+
+.content_1 .form .button button {
+    background-color: #9EA1D4;
+    border: none;
+    color: white;
+}
+
+.content_1 .form .button button:focus {
+    box-shadow: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .content_1 .title h1 {
+        /* color: red; */
+        margin-bottom: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .content_1 .img {
+        text-align: center;
+        margin: 0;
+    }
+
+    .content_1 .form {
+        padding: 0 50px;
+        margin-top: 50px;
+    }
+
+    .content_1 .form input {
+        width: 100%;
+    }
+
+    .content_1 .form .button {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content_1 .form .button p a {
+        padding: 5px 10px;
+    }
+
+
+}

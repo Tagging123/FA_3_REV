@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.aw{
+    /* border: 1px solid red; */
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navbar + Header */
+
+#navibar{
+    background-color: #9EA1D4;
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.4);
+    z-index: 99999;
+    position: relative;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.header .top{
+    display: flex;
+    padding: 10px 30px;
+}
+
+.header .top a img{
+    width: 45%;
+    margin-right: 50px;
+}
+
+.header .top .list{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.header .top .list li{
+    display: inline-block;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header .top .list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .top .list li a:hover{
+    color:rgb(90, 90, 90);
+}
+
+.header .top .list li a:active{
+    outline: none;
+}
+
+/* deprecated start*/
+
+.ui-menu{
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.dropdown-menu{
+    border-color: #393939;
+}
+
+.ui-front{
+    border: 1px solid #393939 !important;
+}
+
+.ui-state-active{
+    background-color: #9EA1D4 !important;
+    /* border-color: #9EA1D4 !important; */
+    border: none !important;
+    margin: 0 !important;
+    border-radius: 3px !important;
+}
+
+.header .top .list li ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header .top .list li ul li{
+    display: block;
+    margin-right: 0;
+}
+
+.header .top .list li ul li a{
+    color: black;
+    text-decoration: none;
+    /* padding: 0; */
+    /* margin: 0; */
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.header .top .list li ul li a:active{
+    background-color: #9EA1D4;
+    outline: none;
+    color: white;
+}
+
+/* deprecated end */
+
+.header .top .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.header .top .logout span{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.header .top .account{
+    display: none;
+}
+
+.header .top .account #account_name_pc{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 5px 1px #393939;
+
+}
+
+.header .top .account #account_name_pc h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #393939;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.header .top .inout{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    /* display: none; */
+}
+
+.header .top .button_1{
+
+}
+
+.header .top .button_2{
+    background-color: #393939;
+    color: white;
+    margin-left: 20px;
+    border-color: #393939;
+}
+
+.header .top .button_2:hover{
+    background: none;
+    color: #393939;
+    margin-left: 20px;
+    border-color: #393939;
+}
+
+.header .top .button_3{
+    align-self: center;
+    margin: 0 0;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: white;
+    display: none;
+    color: rgb(209, 209, 209);
+}
+
+.header #hider{
+    display: none;
+}
+
+.header .hidding .hidding_inner{
+    padding: 20px 30px;
+}
+
+.header .hidding .hidding_inner ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header  .hidding .hidding_inner ul .account_mobile{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    display: none;
+}
+
+.header .hidding .hidding_inner ul .account_mobile .logout span{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.header  .hidding .hidding_inner ul .account_mobile #account_name_mobile{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-left: auto;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 5px 1px #393939;
+}
+
+.header .hidding .hidding_inner ul .account_mobile #account_name_mobile h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #393939;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header .hidding .hidding_inner ul .inout{
+    /* background-color: red; */
+    /* text-align: right; */
+    /* display: none; */
+    margin-top: 10px;
+}
+
+.header .hidding .hidding_inner ul .inout .button_2{
+    margin-left: 15px;
+    background-color: #393939;
+    color: white;
+    border-color: #393939;
+}
+
+.header .hidding .hidding_inner ul .inout .button_2:hover{
+    background: none;
+    color: #393939;
+    border-color: #393939;
+}
+
+.header .hidding .hidding_inner ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* margin: 10px 0; */
+    margin-bottom: 10px;
+}
+
+.header .hidding .hidding_inner ul li.exclude{
+    margin-bottom: 0px;
+}
+
+.header .hidding .hidding_inner ul li ul li{
+    margin: 0;
+}
+
+.header .hidding .hidding_inner ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .hidding .hidding_inner ul li a:hover{
+    color: white;
+    text-decoration: none;
+    color:rgb(90, 90, 90);
+}
+
+.header .hidding .hidding_inner ul li a:active{
+    outline: none;
+}
+
+.header .hidding .hidding_inner ul li ul li a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.header .hidding .hidding_inner ul li ul li a:active{
+    background-color: #9EA1D4;
+    outline: none;
+    color: white;
+}
+
+.header .hidding .hidding_inner ul li ul li a.exclude{
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header .top .list{
+        display: none;
+    }
+
+    .header .top img{
+        width: 30%
+    }
+
+    .header .top .button_1{
+        display: none;
+    }
+
+    .header .top .button_2{
+        display: none;
+    }
+
+    .header .top .button_3{
+        display: block;
+    }
+
+    .header .hidding{
+        display: normal;
+    }
+
+    .header #hider{
+        display: initial;
+    }
+
+    .header #hider .hidding .menu li ul li{
+        padding: 3px 20px 3px 8px;
+    }
+
+    .ui-state-active{
+        background-color: #9EA1D4 !important;
+        border: none !important;
+    }
+
+    .header .top .account{
+        display: none !important;
+    }
+
+
+}

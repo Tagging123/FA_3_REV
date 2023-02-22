@@ -1,0 +1,80 @@
+.aw{
+    /* border: 1px solid red; */
+}
+
+#navibar{
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content_1{
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 50%;
+    background-color: #9EA1D4;
+    /* background-color: #F1F7B5; */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    /* color: black; */
+    border-radius: 20px;
+    padding: 25px 0;
+    
+}
+
+.content_1 .desc{
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.content_1 .desc h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.content_1 .list{
+    padding: 0;
+}
+
+.content_1 .list h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.content_1 .list ul{
+    padding: 0;
+    /* width: 97px; */
+    text-align: center;
+    margin: 0;
+}
+
+/* .content_1 .list .inst{
+    margin: 0 67px;
+}
+
+.content_1 .list .cours{
+    margin: 0 73px;
+}
+
+.content_1 .list .add{
+    margin: 0 54px;
+} */
+
+.content_1 .list ul li{
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .content_1{
+        margin: 0;
+        padding: 0;
+        margin: 50px auto;
+        width: 80%;
+        padding: 20px;
+    } 
+
+}

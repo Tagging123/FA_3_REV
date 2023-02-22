@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Responsive</title>
+    <style>
+        .aws {
+            border: 1px solid red;
+        }
+
+        @media only screen and (max-width: 768px){
+            .content_1 .img .query{
+                width: 70%;
+            }
+        }
+
+        .content_1 hr {
+            height: 10px;
+            color: red;
+            margin: 20px 0;
+            padding: 0;
+        }
+
+        .content_1 .title {
+            text-align: center;
+        }
+
+        .content_1 .img {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content_1 .img img {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content_1 .desc {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content_1 .desc p {
+            margin: 0;
+            padding: 0 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid aw">
+        <div class="content_1 row aw justify-content-center align-items-center">
+            <div class="title col-sm-12 col-md-12 aw">
+                <h1>Test Responsive Pls</h1>
+            </div>
+            <hr>
+            <div class="img col-sm-12 col-md-3 aw">
+                <img src="images/Goals.jpg" class="img-fluid aw query">
+            </div>
+            <!-- <hr> -->
+            <div class="desc col-sm-12 col-md-8 aw">
+                <p class="aw">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti unde voluptatibus
+                    reiciendis.<br>Necessitatibus magnam unde nisi, consequuntur facilis voluptatibus labore dolores
+                    fugiat alias perspiciatis itaque ea fugit! Laborum, sit temporibus!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

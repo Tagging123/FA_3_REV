@@ -1,0 +1,81 @@
+.aw{
+    /* border: 1px solid red; */
+}
+
+#navibar{
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content_1{
+    margin-top: 5%;
+}
+
+.content_1 .title{
+    padding: 0;
+}
+
+.content_1 .title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.content_1 .sche{
+margin: 0;
+padding: 0;
+margin-top: 20px;
+}
+
+.content_1 .sche h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.content_1 .sche table{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.content_1 .sche table .first{
+    width: 50px;
+}
+
+.content_1 .sche table .second{
+    width: 300px;
+}
+
+.content_1 .sche table .third{
+    width: 500px;
+}
+
+.content_1 .sche nav{
+    background-color: #9EA1D4;
+}
+
+.content_1 .sche nav .day{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.content_1 .sche .color{
+    background-color: #F1F7B5;
+}
+
+@media only screen and (max-width: 768px) {
+    .content_1 .title{
+        margin:0;
+        padding: 0;
+        padding: 30px;
+        padding-bottom: 0;
+    }
+
+    .content_1 .sche{
+        margin: 0;
+        padding: 0;
+        padding: 30px;
+    }
+}

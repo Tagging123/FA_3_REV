@@ -1,0 +1,190 @@
+.aw {
+    /* border: 1px solid red; */
+}
+
+#navibar {
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content_1 {
+    margin-top: 5%;
+}
+
+.content_1 .title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content_1 .img {
+    text-align: right;
+    padding: 0;
+    margin-right: 60px;
+}
+
+.content_1 .img img {
+    width: 60%;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.content_1 .form {
+    padding: 0;
+}
+
+.content_1 .form .upper input {
+    width: 80%;
+} 
+
+.content_1 .form .button {
+    text-align: center;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.content_1 .form .button .row{
+    margin: 0;
+    padding: 0;
+}
+
+.content_1 .form .button .bottom{
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+}
+
+.content_1 .form .button .bottom div{
+    display: inline-block;
+    display: flex;
+}
+
+.content_1 .form .button .bottom .check{
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.content_1 .form .button .bottom .check label{
+    padding: 0;
+    margin: 0;
+}
+
+.content_1 .form .button .bottom .check label a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.content_1 .form .button .bottom .create{
+    padding: 0;
+    margin: 0;
+}
+
+.content_1 .form .button .bottom .check label a:hover{
+    color:#9EA1D4 ;
+}
+
+.content_1 .form .button .bottom .signin{
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0;
+}
+
+.content_1 .form .button .bottom .signin a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.content_1 .form .button .bottom .signin a:hover{
+    background-color: #9EA1D4;
+    color: white;
+    border-radius: 10px;
+}
+
+.content_1 .form .button .bottom .signin a:active{
+    box-shadow: none;
+    outline: none;
+}
+
+.content_1 .form .button .bottom .signin a:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+    border-radius: 10px;
+}
+
+/* .content_1 .form .button .bottom .check label a:hover{
+    background-color: #9EA1D4;
+    color: white;
+    border-radius: 10px;
+}
+
+.content_1 .form .button .bottom .check label a:active{
+    box-shadow: none;
+    outline: none;
+}
+
+.content_1 .form .button .bottom .check label a:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+    border-radius: 10px;
+} */
+
+.content_1 .form .button button {
+    width: initial;
+    margin-top: 15px;
+}
+
+.content_1 .form .button button {
+    background-color: #9EA1D4;
+    border: none;
+    color: white;
+}
+
+.content_1 .form .button button:focus {
+    box-shadow: none;
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .content_1 .title h1 {
+        margin-bottom: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .content_1 .img {
+        text-align: center;
+        margin: 0;
+    }
+
+    .content_1 .form .upper{
+        padding: 0 50px;
+        margin-top: 50px;
+    }
+
+    .content_1 .form .upper input{
+        width: 100%;
+    }
+
+    .content_1 .form .button{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 79%;
+    }
+
+    .content_1 .form .button button{
+        margin-top: 31px;
+    }
+
+
+}
+
+@media only screen and (max-width: 365px) {
+    .content_1 .form .button{
+        width: 74%;
+    }
+}

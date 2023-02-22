@@ -1,0 +1,51 @@
+/* Banner */
+.banner{
+    background-image: url(images/home.png);
+    height: auto;
+    background-position-y: -211px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    border: 1px solid rgba(255, 255, 255, 255);
+}
+
+@media only screen and (max-width: 768px){
+    .banner{
+        height: 323px;
+        background-position-x: -70px;
+        background-position-y: 2px;
+        background-size: cover;
+    }
+}
+
+.banner center{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.banner h1{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+    word-spacing: 5px;
+    margin: 0;
+}
+
+.banner h1 span{
+    color: #F1F7B5;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.banner p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    font-weight: 600;
+}
